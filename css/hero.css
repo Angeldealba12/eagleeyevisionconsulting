@@ -3,33 +3,37 @@
 .hero {
     padding: 8em;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
-    background: rgb(233, 30, 99);
-    background: linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(47, 223, 215, 1) 62%);
-    border-bottom-right-radius: 15em;
+    background-image: url(../img/background_foto_1.jpg);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .hero>h1 {
-    font-size: 5em;
+    font-size: 4em;
     color: white;
-    text-shadow: 1px 1px 1px #ccc;
+    text-shadow: 2px 2px 2px #df2454;
 }
 
 .hero>p {
-    font-size: 3em;
-    font-family: "Satisfy", serif;
+    font-size: 2.5em;
+    font-family: "Courgette", cursive;
     font-weight: 400;
     font-style: normal;
     color: white;
-    text-shadow: 1px 1px 1px #ccc;
+    text-shadow: 1.5px 1.5px 1.5px #df2454;
 }
 
 .hero-links {
     padding: 1em;
     margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .hero-links>a {
@@ -43,3 +47,65 @@
     margin-left: 1.5em;
 }
 
+.hero-links > .btn-book {
+    background-color: #ffff00;
+    color: black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 6em;
+    }
+    
+    .hero>h1 {
+        font-size: 3.5em;
+    }
+    
+    .hero>p {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 4em;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero>h1 {
+        font-size: 3em;
+    }
+    
+    .hero>p {
+        font-size: 1.8em;
+    }
+    
+    .hero-links {
+        justify-content: center;
+    }
+    
+    .hero-links>a {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding: 2em;
+    }
+    
+    .hero>h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero>p {
+        font-size: 1.5em;
+    }
+    
+    .hero-links>a {
+        padding: 0.8em;
+        font-size: 0.9em;
+    }
+}

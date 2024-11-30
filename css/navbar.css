@@ -2,6 +2,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     background-color: white;
     padding: 0.5em;
@@ -9,17 +10,12 @@
     top: 0px;
     z-index: 2;
 }
-
-.navbar>.logo {
-    padding: 0.8em;
-
+.logo > a {
+    padding: 1em;
 }
 
-.navbar>.logo>a {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #3ABAB4;
-    text-decoration: none;
+.logo > a > img {
+    width: 200px;
 }
 
 .navbar>ul {
@@ -33,7 +29,9 @@
 
 .navbar>ul>li>a {
     font-size: 1.2em;
-    font-weight: bold;
     text-decoration: none;
     color: black;
+    font-family: "B612 Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }

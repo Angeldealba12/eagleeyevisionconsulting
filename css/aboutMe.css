@@ -1,88 +1,29 @@
-/* About me section */
-
 .about-me {
     display: flex;
-    justify-content: space-around;
+    padding: 4em;
 }
 
-.profile {
-    width: 30%;
-    padding: 3em;
-
+.profile-pic {
+    width: 50%;
 }
 
-.card {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-}
-
-.title {
-    color: grey;
-    font-size: 18px;
-}
-
-.card>button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background: rgb(251, 63, 220);
-    background: radial-gradient(circle, rgba(251, 63, 220, 1) 0%, rgba(252, 70, 107, 1) 100%);
-    text-align: center;
-    cursor: pointer;
+.profile-pic > img {
     width: 100%;
-    font-size: 18px;
 }
 
-.card>p {
-    padding: 0.5em;
-}
-
-.card>a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-
-.card>button:hover,
-.card>a:hover {
-    opacity: 0.7;
-}
-
-
-
-.values {
-    width: 60%;
-    padding: 5em;
+.bio {
+    width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    padding: 2em;
 }
 
-.mission,
-.vision {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1em;
-    line-height: 1.5em;
-}
-
-.mission>h2,
-.vision>h2 {
-    color: rgba(47, 223, 215, 1);
-    font-size: 1.8em;
-    padding: 0.5em;
-}
-
-.mission>img,
-.vision>img {
-    max-width: 100px;
+.profile-name{
+    font-size: 4em;
+    font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
