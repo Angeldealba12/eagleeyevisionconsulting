@@ -5,6 +5,8 @@
   align-items: center;
   background-color: #fff;
   padding: 5em 1em;
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
 .outer-rectangle {
@@ -132,4 +134,69 @@
 
 .outer-rectangle.yellow button:hover {
   background-color: gold;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  .services {
+    padding: 3em 0.5em;
+  }
+  
+  .outer-rectangle {
+    width: 280px;
+    height: 420px;
+  }
+  
+  .bottom-content h3 {
+    font-size: 1.1em;
+  }
+  
+  .bottom-content p {
+    font-size: 0.85em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    padding: 2em 0.5em;
+  }
+  
+  .outer-rectangle {
+    width: 260px;
+    height: 400px;
+  }
+  
+  .circle {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .services {
+    padding: 1.5em 0.25em;
+  }
+  
+  .outer-rectangle {
+    width: 240px;
+    height: 380px;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .bottom-content h3 {
+    font-size: 1em;
+  }
+  
+  .bottom-content p {
+    font-size: 0.8em;
+  }
+  
+  .bottom-content button {
+    font-size: 0.85em;
+    padding: 6px 12px;
+  }
 }
