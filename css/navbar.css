@@ -33,8 +33,25 @@
     text-decoration: none;
     color: black;
     font-family: "B612 Mono", monospace;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
+
+}
+
+.navbar>ul>li>a:hover {
+    color: #df2454;
+    font-weight: bold;
+}
+
+.navbar-icons {
+    padding: 1em;
+}
+
+.navbar-icons > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: 1em;
 }
 
 .responsive-menu {
@@ -44,6 +61,19 @@
 .ham-menu {
     display: none;
 }
+
+.ham-navbar-icons {
+    display: flex;
+}
+
+.navbar-icons > a:hover{
+    color: #df2454;
+}
+
+.active-color {
+    color: #df2454 !important;
+}
+
 
 @media only screen and (max-width: 870px) {
 
@@ -64,6 +94,10 @@
         color: black;
         font-size: 1.5rem;
         cursor: pointer;
+    }
+
+    .navbar-icons { 
+        display: none;
     }
 
     .responsive-menu {
