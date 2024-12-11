@@ -1,0 +1,69 @@
+.eagle-values {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #df2454;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.eagle-values > h1 {
+    font-size: 3em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: "B612 Mono", monospace;
+    font-weight: bold;
+    
+}
+
+.eagle-values > div{
+    padding: 2em;
+    width: 30%;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .eagle-values {
+        padding: 1.5em;
+        gap: 1.5em;
+    }
+    
+    .eagle-values > h1 {
+        font-size: 2.5em;
+        padding: 0.75em;
+    }
+    
+    .eagle-values > div {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .eagle-values {
+        padding: 1em;
+        gap: 1em;
+    }
+    
+    .eagle-values > h1 {
+        font-size: 2em;
+        padding: 0.5em;
+    }
+    
+    .eagle-values > div {
+        width: 100%;
+        padding: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .eagle-values > h1 {
+        font-size: 1.5em;
+    }
+    
+    .eagle-values > div {
+        padding: 1em;
+    }
+}
