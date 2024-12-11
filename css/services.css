@@ -9,6 +9,15 @@
   gap: 2em;
 }
 
+.services-title {
+  font-size: 3em;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  font-family: "B612 Mono", monospace;
+  font-weight: bold;
+}
+
 .outer-rectangle {
   position: relative;
   width: 300px;
