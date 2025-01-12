@@ -6,7 +6,6 @@
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
-    background-image: url(../img/background_foto_1.jpg);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +14,7 @@
 
 .hero>h1 {
     font-size: 4em;
-    color: white;
-    text-shadow: 2px 2px 2px #df2454;
+    color: black;
 }
 
 .hero>p {
@@ -24,8 +22,7 @@
     font-family: "Courgette", cursive;
     font-weight: 400;
     font-style: normal;
-    color: white;
-    text-shadow: 1.5px 1.5px 1.5px #df2454;
+    color: black;
 }
 
 .hero-links {
