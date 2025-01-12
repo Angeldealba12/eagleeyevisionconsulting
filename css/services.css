@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .outer-rectangle::before {
@@ -62,6 +62,32 @@
   z-index: 1; 
 }
 
+.circle-bg-one {
+  background-image: url(../img/Asset-3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.circle-bg-two {
+  background-image: url(../img/tara_butterfly.png);
+  background-position-y: 100%;
+  background-size: 100%;
+  background-repeat: none;
+  
+}
+
+.circle-bg-three {
+  background-image: url(../img/Asset-3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.circle-bg-four {
+  background-image: url(../img/Asset-3.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .bottom-content {
   position: absolute;
   bottom: 0;
@@ -77,14 +103,16 @@
 
 .bottom-content h3 {
   margin: 5px 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
   color: black;
   padding: 0.5em;
 }
 
 .bottom-content p {
   margin: 5px 0;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: black;
   padding: 0 0.5em;
 }
@@ -99,51 +127,71 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
-/* Button hover effect */
-.bottom-content button:hover {
-  background-color: darkmagenta;
-}
-
-/* Turquoise Section */
-.outer-rectangle.turquoise::before {
-  background-color: #40e0d0; /* Turquoise color */
-}
-
-.outer-rectangle.turquoise button {
-  background-color: #40e0d0;
-}
-
-.outer-rectangle.turquoise button:hover {
-  background-color: #2fb4a3;
-}
-
-/* Pink Section (default) */
-.outer-rectangle.pink::before {
-  background-color: fuchsia; /* Original pink color */
-}
-
-.outer-rectangle.pink button {
-  background-color: fuchsia;
-}
-
-.outer-rectangle.pink button:hover {
-  background-color: darkmagenta;
-}
-
-/* Yellow Section */
+/* Pink Section */
 .outer-rectangle.yellow::before {
-  background-color: yellow; /* Yellow color */
+  background-color: #e91e63;
 }
 
 .outer-rectangle.yellow button {
-  background-color: yellow;
-  color: black; /* Improved readability on yellow */
+  background-color: #e91e63;
+  color: white;
 }
 
 .outer-rectangle.yellow button:hover {
-  background-color: gold;
+  background-color: white;
+  color: #e91e63;
+  border: 2px solid #e91e63;
 }
+
+/* Turquoise Section (default) */
+.outer-rectangle.pink::before {
+  background-color: #01acc6;
+}
+
+.outer-rectangle.pink button {
+  background-color: #01acc6;
+  color: white;
+}
+
+.outer-rectangle.pink button:hover {
+  background-color: white;
+  color: #01acc6;
+  border: 2px solid #01acc6;
+}
+
+/* Yellow Section */
+.outer-rectangle.turquoise::before {
+  background-color: #ffe530;
+}
+
+.outer-rectangle.turquoise button {
+  background-color: #ffe530;
+  color: black;
+}
+
+.outer-rectangle.turquoise button:hover {
+  background-color: white;
+  color: #ffe530;
+  border: 2px solid #ffe530;
+}
+
+/* Black Section */
+.outer-rectangle.black::before {
+  background-color: #000000;
+}
+
+.outer-rectangle.black button {
+  background-color: #000000;
+  color: white;
+}
+
+.outer-rectangle.black button:hover {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+
 
 /* Media Queries */
 @media only screen and (max-width: 1024px) {
@@ -187,7 +235,7 @@
   }
   
   .outer-rectangle {
-    width: 240px;
+    width: 70%;
     height: 380px;
   }
   
@@ -197,7 +245,7 @@
   }
   
   .bottom-content h3 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   
   .bottom-content p {
