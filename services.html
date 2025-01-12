@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/universal.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/universal.css" />
+    <link rel="stylesheet" href="./css/services-page.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <script
-    src="https://kit.fontawesome.com/2c7412deb9.js"
-    crossorigin="anonymous"
-  ></script>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2c7412deb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Services - Eagle Eye Vision</title>
-</head>
-<body>
-      <!-- navbar & resposive navbar -->
-      <nav class="navbar">
-        <div class="logo">
-          <a href="./index.html"
-            ><img src="./img/logo-short.PNG" alt="logo-tara"
-          /></a>
-        </div>
+  </head>
+  <body>
+    <!-- navbar & resposive navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./img/logo-short.PNG" alt="logo-tara"
+        /></a>
+      </div>
+      <ul>
+        <li><a href="./aboutMe.html">About</a></li>
+        <li><a class="active-color" href="./services.html">Services</a></li>
+        <li><a href="./merch.html">Shop</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="ham-menu" id="ham-menu" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="responsive-menu" id="responsive-menu">
         <ul>
-          <li><a href="./aboutMe.html">About</a></li>
-          <li><a class="active-color" href="./services.html">Services</a></li>
-          <li><a href="./merch.html">Shop</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-        <div class="ham-menu" id="ham-menu" onclick="myFunction()">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="responsive-menu" id="responsive-menu">
-          <ul>
-            <li class="animate__bounceIn">
-              <a href="./aboutMe.html">About</a>
-            </li>
-            <li class="animate__bounceIn">
-              <a href="./services.html">Services</a>
-            </li>
-            <li class="animate__bounceIn">
-              <a href="./merch.html">Shop</a>
-            </li>
-            <li class="animate__bounceIn">
-              <a href="./contact.html">Contact</a>
-            </li>
-            <li class="ham-navbar-icons">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <li class="animate__bounceIn">
+            <a href="./aboutMe.html">About</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./merch.html">Shop</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li class="ham-navbar-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
           </li>
         </ul>
       </div>
@@ -63,18 +74,123 @@
       </div>
     </nav>
 
+    <section class="services-hero">
+      <div class="services-hero-text">
+        <p class="services-hero-title">Services</p>
+        <p class="services-hero-description">Empower your business with expert solutions in professional development, wellness, inclusion, and strategic marketing. From boosting productivity and fostering inclusive cultures to enhancing employee well-being and driving impactful growth through innovative marketing strategies—we’re here to help you thrive.</p>
+      </div>
+      <div>
+        <img src="./img/Tara teaching 47(4).jpg" alt="photo-services-tara" />
+      </div>
+    </section>
 
-       <!-- Footer -->
-       <footer>
-        <div class="footer-container">
-          <h3>Ready to Elevate Your Perspective?</h3>
-          <p>
-            Let's work together to foster growth, belonging, and success in your
-            organization.
-          </p>
-          <button class="footer-button">Book a Consultation</button>
+    <section class="service">
+      <div class="color-pic-side-one">
+        
+      </div>
+      <div class="service-description-box">
+        <div class="color-line-one"></div>
+        <h1>Profesional Development</h1>
+        <p>"From insight to action"</p>
+        <p>Empower your team and organization through focused professional development, including time management, value alignment, company culture enhancement, and more. Let us guide you to success with personalized strategies and actionable insights that drive growth and efficiency.</p>
+        <div class="dropdown">
+          <span>View Our Offerings</span>
+          <div class="dropdown-content">
+          <p>1. Time Bending: Mastering Time Management</p>
+          <p>2. Identifying Values and Goal Setting</p>
+          <p>3. Improving Company Culture</p>
+          <p>4. Speed Reading  & Learning How to Learn</p>
+          <p>5. Customized Consulting Session</p>
+          <p>6. Navigating Bias & Perspective</p>
+          </div>
         </div>
-      </footer>
-      <script src="./js/navbar.js"></script>
-</body>
+        <a class="learn-more-service learn-more-btn-one" href="#">Learn more</a>
+      </div>
+    </section>
+
+
+    <section class="service">
+      <div class="service-description-box">
+        <div class="color-line-two"></div>
+        <h1>Wellness & Health</h1>
+        <p>“Mind, Body, Business: Wellness in Action”</p>
+        <p>Prioritize employee wellness with customized fitness, mindfulness, and stress management programs that foster a healthier, more productive workforce.</p>
+        <div class="dropdown">
+          <span>View Our Offerings</span>
+          <div class="dropdown-content">
+          <p>1. Yoga & Stretching</p>
+          <p>2. The Science of Mindfulness</p>
+          <p>3. Resilience in the Workplace</p>
+          <p>4. Stress Management</p>
+          <p>5. Breathwork & Relaxation</p>
+          <p>6. Dance Fitness Workshops</p>
+          <p>7. Barre & Boot Camp Workouts</p>
+          <p>8. Corporate Retreats & Wellness Conferences</p>
+          </div>
+        </div>
+        <a class="learn-more-service learn-more-btn-two" href="#">Learn more</a>
+      </div>
+      <div class="color-pic-side-two">
+
+      </div>
+    </section>
+    
+    <section class="service">
+      <div class="color-pic-side-three"></div>
+      <div class="service-description-box">
+        <div class="color-line-three"></div>
+        <h1>Inclusive Excellence </h1>
+        <p>“Fostering Diverse, Equitable, and Inclusive Workplaces”</p>
+        <p>Create a culture of inclusion, respect, and belonging with services designed to address bias, foster inclusive leadership, and build diverse teams.</p>
+        <div class="dropdown">
+          <span>View Our Offerings</span>
+          <div class="dropdown-content">
+          <p>1. Understanding Bias & Navigating Perspectives</p>
+          <p>2. Inclusive Leadership Training</p>
+          <p>3. Neurodiversity Awareness and Support</p>
+          <p>4. Building a Culture of Belonging</p>
+          <p>5. D.E.I. Strategy Development & Implementation</p>
+          <p>6. Custom D.E.I. Sessions</p>
+          </div>
+        </div>
+        <a class="learn-more-service learn-more-btn-three " href="#">Learn more</a>
+      </div>
+    </section>
+    <section class="service">
+      <div class="service-description-box">
+        <div class="color-line-four"></div>
+        <h1>Strategic Marketing </h1>
+        <p>“Innovative Strategies. Creative Solutions. Impactful Growth.”</p>
+        <p>Drive business growth with targeted marketing strategies, social media engagement, and AI-powered tools that optimize your campaigns and enhance customer relationships.</p>
+        <div class="dropdown">
+          <span>View Our Offerings</span>
+          <div class="dropdown-content">
+          <p>1. Creating a Strategic Marketing Plan</p>
+          <p>2. Social Media & Your Business</p>
+          <p>3. Prompt Engineering with A.I.</p>
+          <p>4. A.I. Marketing for Your Business</p>
+          <p>5. Customer Perspective</p>
+          <p>6. Customer Journey and Pain Points</p>
+          <p>7. Customized Strategic Session</p>
+          </div>
+        </div>
+        <a class="learn-more-service btn-more-btn-four" href="#">Learn more</a>
+        </div>
+      <div class="color-pic-side-four"></div>
+     
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <h3>Ready to Elevate Your Perspective?</h3>
+        <p>
+          Let's work together to foster growth, belonging, and success in your
+          organization.
+        </p>
+        <button class="footer-button">Book a Consultation</button>
+      </div>
+    </footer>
+    <script src="./js/navbar.js"></script>
+  </body>
 </html>

@@ -1,0 +1,276 @@
+.services-hero {
+    display: flex;
+}
+
+.services-hero>div {
+    width: 50%;
+}
+
+.services-hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-hero-description {
+    width: 80%;
+    font-family: "B612 Mono", monospace;
+    text-align: center;
+}
+
+.services-hero-title {
+    font-size: 6em;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5em;
+}
+
+.services-hero>div>img {
+    width: 100%;
+}
+
+.service {
+    display: flex;
+}
+
+.service>div {
+    width: 50%;
+    padding: 2em;
+}
+
+.service-description-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-description-box>h1 {
+    font-size: 2em;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1em 0em;
+}
+
+.service-description-box>p {
+    padding: 1em 0em;
+    font-family: "B612 Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0.5em;
+    color: #878282;
+}
+
+.color-line-one {
+    padding: 0.2em;
+    background-color: #e91e63;
+    width: 30%;
+}
+
+.color-line-two {
+    padding: 0.2em;
+    background-color: #01acc6;
+    width: 30%;
+}
+
+.color-line-three {
+    padding: 0.2em;
+    background-color: #ffe530;
+    width: 30%;
+}
+
+.color-line-four {
+    padding: 0.2em;
+    background-color: #000000;
+    width: 30%;
+}
+
+.color-pic-side-one {
+    background-color: #e91e63;
+}
+
+.color-pic-side-two {
+    background-color: #01acc6;
+}
+
+.color-pic-side-three {
+    background-color: #ffe530;
+}
+
+.color-pic-side-four {
+    background-color: #000000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 30%;
+    margin: 1em 0em;
+    text-align: center;
+    font-family: "B612 Mono", monospace;
+    font-size: 0.8em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+}
+
+.dropdown-content>p {
+    padding: 0.5em;
+    text-align: left;
+}
+
+.dropdown-content>p:hover {
+    background-color: #ccc;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.learn-more-service {
+    font-family: "B612 Mono", monospace;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+    margin: 1em 0em;
+    width: 30%;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.learn-more-btn-one {
+    background-color: #e91e63;
+    color: white;
+    border: 2px solid #e91e63;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn-one:hover {
+    background-color: white;
+    color: #e91e63;
+    border: 2px solid #e91e63;
+}
+
+.learn-more-btn-two {
+    background-color: #01acc6;
+    color: white;
+    border: 2px solid #01acc6;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn-two:hover {
+    background-color: white;
+    color: #01acc6;
+    border: 2px solid #01acc6;
+}
+
+.learn-more-btn-three {
+    background-color: #ffe530;
+    color: black;
+    border: 2px solid #ffe530;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn-three:hover {
+    background-color: white;
+    color: #ffe530;
+    border: 2px solid #ffe530;
+}
+
+.btn-more-btn-four {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.btn-more-btn-four:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .services-hero-title {
+        font-size: 4em;
+    }
+    
+    .dropdown, .learn-more-service {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-hero {
+        flex-direction: column;
+    }
+    
+    .services-hero>div {
+        width: 100%;
+    }
+    
+    .services-hero-title {
+        font-size: 3em;
+    }
+    
+    .service {
+        flex-direction: column;
+    }
+    
+    .service>div {
+        width: 100%;
+        padding: 1em;
+    }
+    
+    .dropdown, .learn-more-service {
+        width: 80%;
+    }
+    
+    .dropdown-content {
+        min-width: 250px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services-hero {
+        flex-direction: column-reverse;
+    }
+    
+    .services-hero-title {
+        font-size: 2.5em;
+    }
+    
+    .services-hero-description {
+        width: 90%;
+        margin: 1em;
+    }
+    
+    .service-description-box>h1 {
+        font-size: 1.5em;
+    }
+    
+    .dropdown, .learn-more-service {
+        width: 100%;
+    }
+    
+    .dropdown-content {
+        min-width: 200px;
+    }
+}
