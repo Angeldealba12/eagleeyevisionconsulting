@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/universal.css">
+    <link rel="stylesheet" href="./css/contact-page.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -73,6 +74,48 @@
       </div>
     </nav>
 
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-image">
+        <img src="./img/Tara-coffe-shop.jpg" alt="contact-image">
+      </div>
+      <div class="contact-form">
+        <div class="form-header">
+          <div class="color-line"></div>
+          <h2>Get in Touch</h2>
+          <p>Let's discuss how we can help transform your organization</p>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service" required>
+              <option value="">Select a Service</option>
+              <option value="leadership">Leadership Development</option>
+              <option value="wellness">Wellness & Health</option>
+              <option value="dei">DEI Workshops</option>
+              <option value="marketing">Marketing</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
 
        <!-- Footer -->
        <footer>
@@ -82,7 +125,6 @@
             Let's work together to foster growth, belonging, and success in your
             organization.
           </p>
-          <button class="footer-button">Book a Consultation</button>
           <div class="footer-icons">
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
