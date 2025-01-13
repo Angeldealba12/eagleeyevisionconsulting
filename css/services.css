@@ -77,13 +77,14 @@
 }
 
 .circle-bg-three {
-  background-image: url(../img/Asset-3.png);
-  background-position: center;
-  background-size: cover;
+  background-image: url(../img/Target.png);
+  background-position: 50%;
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 .circle-bg-four {
-  background-image: url(../img/Asset-3.png);
+  background-image: url(../img//Target_vision.png);
   background-position: center;
   background-size: cover;
 }
