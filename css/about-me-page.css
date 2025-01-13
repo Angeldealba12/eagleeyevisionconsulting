@@ -1,0 +1,48 @@
+.hero-about-me {
+    display: flex;
+    background-color: #6f9f87;
+}
+
+.hero-img-about-me {
+    width: 50%;
+
+}
+
+.hero-img-about-me > img {
+    width: 100%;
+}
+
+.butterfly > img {
+    width: 80%;
+}
+
+.about-me-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.about-me-description > h1 {
+    font-size: 5em;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    color: rgb(19, 18, 18);
+   padding: 0em 0.5em;
+}
+
+.about-me-description > p {
+    padding: 1em 2em;
+    font-family: "B612 Mono", monospace;
+    color: rgb(31, 27, 27);
+    text-align: center;
+}
+
+.about-me-description > .about-me-title {
+    color:  black;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+}
