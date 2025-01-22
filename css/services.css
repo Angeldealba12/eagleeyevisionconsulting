@@ -21,7 +21,7 @@
 .outer-rectangle {
   position: relative;
   width: 300px;
-  height: 450px;
+  height: 500px;
   border-radius: 3%;
   display: flex;
   align-items: center;
@@ -103,8 +103,8 @@
 }
 
 .bottom-content h3 {
-  margin: 5px 0;
-  font-size: 1.3em;
+  margin: 0;
+  font-size: 1.2em;
   font-family: "Courgette", cursive;
   font-weight: 400;
   color: black;
@@ -113,14 +113,15 @@
 
 .bottom-content p {
   margin: 5px 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: black;
-  padding: 0 0.5em;
+  padding: 0 1em;
+  font-family: "Baloo 2", serif;
 }
 
 .bottom-content button {
   margin: 10px 0;
-  padding: 8px 15px;
+  padding: 1em;
   font-size: 0.9em;
   color: white;
   border: none;

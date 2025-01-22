@@ -38,14 +38,12 @@
     text-decoration: none;
     color: black;
     font-family: "B612 Mono", monospace;
-    font-weight: bold;
     font-style: normal;
 
 }
 
 .navbar>ul>li>a:hover {
     color: #df2454;
-    font-weight: bold;
 }
 
 .navbar-icons {

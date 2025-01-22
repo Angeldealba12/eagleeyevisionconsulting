@@ -31,6 +31,10 @@
     border-radius: 0.5em;
 }
 
+.eagle-values > div > p {
+    font-family: "Baloo 2", serif;
+}
+
 
 
 @media only screen and (max-width: 1024px) {
