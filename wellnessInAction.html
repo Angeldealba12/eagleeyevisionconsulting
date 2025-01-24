@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/universal.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/universal.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/wellnessInAction.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
       rel="stylesheet"
@@ -34,26 +39,78 @@
     ></script>
 
     <title>Wellness in Action</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./img/semifinal_proposal_logo.png" alt="logo-tara"
+        /></a>
+      </div>
+      <ul>
+        <li><a href="./aboutMe.html">About</a></li>
+        <li><a class="active-color" href="./services.html">Services</a></li>
+        <li><a href="./merch.html">Shop</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="ham-menu" id="ham-menu" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="responsive-menu" id="responsive-menu">
+        <ul>
+          <li class="animate__bounceIn">
+            <a href="./aboutMe.html">About</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./merch.html">Shop</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li class="ham-navbar-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </nav>
+
+     <!-- Hero Wellness in Action -->
+     <section class="well-hero">
+      <h1>Wellness in Action</h1>
+      <p>Transform your workplace with our comprehensive wellness programs. We offer customized solutions to enhance employee health, productivity, and overall well-being.</p>
+      <a href="#">Get started</a>
+     </section>
+
 
     <!-- Footer -->
     <footer>
-        <div class="footer-container">
-          <h3>Ready to Elevate Your Perspective?</h3>
-          <p>
-            Let's work together to foster growth, belonging, and success in your
-            organization.
-          </p>
-          <a class="footer-button" href="./contact.html">Book a Consultation</a>
-          <div class="footer-icons">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </div>
+      <div class="footer-container">
+        <h3>Ready to Elevate Your Perspective?</h3>
+        <p>
+          Let's work together to foster growth, belonging, and success in your
+          organization.
+        </p>
+        <a class="footer-button" href="./contact.html">Book a Consultation</a>
+        <div class="footer-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
-      </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
