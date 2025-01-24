@@ -15,7 +15,7 @@
 
 .services-hero-description {
     width: 80%;
-    font-family: "B612 Mono", monospace;
+    font-family: "Baloo 2", serif;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@
 
 .service-description-box>p {
     padding: 1em 0em;
-    font-family: "B612 Mono", monospace;
+    font-family: "Baloo 2", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
@@ -114,7 +114,7 @@
     width: 30%;
     margin: 1em 0em;
     text-align: center;
-    font-family: "B612 Mono", monospace;
+    font-family: "Baloo 2", serif;
     font-size: 0.8em;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .learn-more-service {
-    font-family: "B612 Mono", monospace;
+    font-family: "Baloo 2", serif;
     text-decoration: none;
     font-size: 0.8em;
     color: black;
