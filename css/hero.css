@@ -69,6 +69,7 @@
     cursor: pointer;
     margin-left: 1.5em;
     font-family: "Baloo 2", serif;
+    font-weight: bold;
 }
 
 .hero-links > .btn-book {
