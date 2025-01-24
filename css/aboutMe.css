@@ -56,7 +56,7 @@
     font-size: 0.9em;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 1.8em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -89,7 +89,7 @@
     font-size: 0.9em;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 1.8em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
