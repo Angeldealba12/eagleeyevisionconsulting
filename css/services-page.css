@@ -108,7 +108,10 @@
 }
 
 .color-pic-side-three {
-    background-color: #ffe530;
+    background-image:  url(../img/You-Belong.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .color-pic-side-four {

@@ -1,0 +1,53 @@
+.inclusive-hero {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/You-Belong.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    align-items: center;
+}
+
+.inclusive-hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 10em;
+}
+
+.inclusive-hero-text h1 {
+    font-size: 4em;
+    font-family: "B612 Mono", monospace;
+    color: white;
+    font-family: "Courgette", cursive;
+}
+
+.inclusive-hero-text p{
+    color: white;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 1em;
+    font-family: "Baloo 2", serif;
+}
+
+.inclusive-hero a {
+    text-decoration: none;
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "B612 Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1em;
+    width: 20%;
+}
+
+.inclusive-hero a:hover {
+    background-color: #ffc107;
+}

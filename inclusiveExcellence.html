@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/universal.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/inclusivePage.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -35,7 +37,60 @@
     <title>Inclusive Excellence</title>
 </head>
 <body>
-    
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./img/semifinal_proposal_logo.png" alt="logo-tara"
+        /></a>
+      </div>
+      <ul>
+        <li><a href="./aboutMe.html">About</a></li>
+        <li><a class="active-color" href="./services.html">Services</a></li>
+        <li><a href="./merch.html">Shop</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="ham-menu" id="ham-menu" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="responsive-menu" id="responsive-menu">
+        <ul>
+          <li class="animate__bounceIn">
+            <a href="./aboutMe.html">About</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./merch.html">Shop</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li class="ham-navbar-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </nav>
+
+      <!-- Inclusive Excellence Hero -->
+      <section class="inclusive-hero">
+        <div class="inclusive-hero-text">
+          <h1 class="animate__animated animate__fadeInDown">Inclusive Excellence</h1>
+          <p class="animate__animated animate__fadeInDown">Our workshops, like "Belonging Begins Here," guide organizations in fostering environments where everyone feels seen, heard, and valued. Focused on perspective, inclusion, and the power of understanding others and ourselves, these programs create spaces where all individuals—regardless of background or neurodiversity—can thrive. Equip your leaders with the tools to navigate and lead in a diverse world, ensuring that belonging becomes a core value in every interaction.</p>
+          <a href="./contact.html">Get started</a>
+        </div>
+      </section>
 
 
     <!-- Footer -->
