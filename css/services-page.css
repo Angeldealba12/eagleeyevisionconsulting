@@ -1,22 +1,31 @@
 .services-hero {
     display: flex;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tara-teaching.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    align-items: center;
+
 }
 
 .services-hero>div {
-    width: 50%;
+    width: 80%;
+    padding-left: 10em;
 }
 
 .services-hero-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .services-hero-description {
-    width: 80%;
+    width: 50%;
     font-family: "Baloo 2", serif;
-    text-align: center;
+    color: white;
+    padding: 0.5em;
 }
 
 .services-hero-title {
@@ -24,11 +33,7 @@
     font-family: "Courgette", cursive;
     font-weight: 400;
     font-style: normal;
-    padding: 0.5em;
-}
-
-.services-hero>div>img {
-    width: 100%;
+    color: white;
 }
 
 .service {
@@ -211,8 +216,9 @@
     .services-hero-title {
         font-size: 4em;
     }
-    
-    .dropdown, .learn-more-service {
+
+    .dropdown,
+    .learn-more-service {
         width: 50%;
     }
 }
@@ -221,28 +227,29 @@
     .services-hero {
         flex-direction: column;
     }
-    
+
     .services-hero>div {
         width: 100%;
     }
-    
+
     .services-hero-title {
         font-size: 3em;
     }
-    
+
     .service {
         flex-direction: column;
     }
-    
+
     .service>div {
         width: 100%;
         padding: 1em;
     }
-    
-    .dropdown, .learn-more-service {
+
+    .dropdown,
+    .learn-more-service {
         width: 80%;
     }
-    
+
     .dropdown-content {
         min-width: 250px;
     }
@@ -252,24 +259,25 @@
     .services-hero {
         flex-direction: column-reverse;
     }
-    
+
     .services-hero-title {
         font-size: 2.5em;
     }
-    
+
     .services-hero-description {
         width: 90%;
         margin: 1em;
     }
-    
+
     .service-description-box>h1 {
         font-size: 1.5em;
     }
-    
-    .dropdown, .learn-more-service {
+
+    .dropdown,
+    .learn-more-service {
         width: 100%;
     }
-    
+
     .dropdown-content {
         min-width: 200px;
     }
