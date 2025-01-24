@@ -10,12 +10,25 @@
 }
 
 .services-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-title h1 {
   font-size: 3em;
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   width: 100%;
-  font-family: "B612 Mono", monospace;
-  font-weight: bold;
+  font-family: "Courgette", cursive;
+}
+
+.services-title p {
+  font-family: "Baloo 2", serif;
+  width: 60%;
+  text-align: center;
+  padding: 0.5em;
 }
 
 .outer-rectangle {
