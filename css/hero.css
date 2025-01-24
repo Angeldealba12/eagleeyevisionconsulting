@@ -59,7 +59,7 @@
 }
 
 .hero-links>a {
-    padding: 1em;
+    padding: 0.5em 1em;
     background-color: #E91E63;
     border-radius: 1.8em;
     color: white;
@@ -70,6 +70,12 @@
     font-weight: bold;
 }
 
+.hero-links>a:hover{
+    background-color: white;
+    color: #E91E63;
+    border: 2px solid #E91E63;
+}
+
 .hero-links > .btn-book {
     background-color: #ffc107;
     color: black;
@@ -78,3 +84,8 @@
 }
 
 
+.hero-links > .btn-book:hover {
+    background-color: black;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+}
