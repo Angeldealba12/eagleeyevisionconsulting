@@ -32,10 +32,10 @@
 .hero-text {
     width: 50%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 0em 10em 0em 0em;
+    padding: 0em 0em 0em 10em;
 }
 
 .hero-text>h1 {
@@ -44,7 +44,7 @@
 }
 
 .hero-text>p {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: "Courgette", cursive;
     font-weight: 400;
     font-style: normal;
@@ -52,22 +52,20 @@
 }
 
 .hero-links {
-    padding: 1em;
+    padding:0em;
     margin-top: 2em;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
 }
 
 .hero-links>a {
     padding: 1em;
     background-color: #E91E63;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     border-radius: 1.8em;
     color: white;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 1.5em;
+    margin-right: 1em;
     font-family: "Baloo 2", serif;
     font-weight: bold;
 }
