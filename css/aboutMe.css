@@ -93,3 +93,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.bio > a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
