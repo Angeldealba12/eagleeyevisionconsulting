@@ -1,7 +1,7 @@
 .services-hero {
     display: flex;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tara-teaching.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-services.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@
     font-family: "Baloo 2", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0.5em;
     color: #878282;
 }
@@ -93,7 +93,10 @@
 }
 
 .color-pic-side-one {
-    background-color: #e91e63;
+    background-image: url(../img/tara-teaching.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .color-pic-side-two {

@@ -7,6 +7,10 @@
   padding: 5em 1em;
   flex-wrap: wrap;
   gap: 2em;
+  background-image: url(../img/bg-section-mainpage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .services-title {
