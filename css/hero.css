@@ -9,7 +9,7 @@
     display: flex;
     position: relative;
     top: 50px;
-    padding: 8em;
+    height: 100vh;
 }
 
 .bg-profile {
@@ -68,11 +68,14 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 1.5em;
+    font-family: "Baloo 2", serif;
 }
 
 .hero-links > .btn-book {
-    background-color: #ffff00;
+    background-color: #ffc107;
     color: black;
+    font-family: "Baloo 2", serif;
+    font-weight: bold;
 }
 
 
