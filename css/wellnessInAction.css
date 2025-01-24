@@ -1,14 +1,24 @@
 .well-hero {
-    margin-top: 5em;
+    display: flex;
     background-color: #01acc6;
-    padding: 5em;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img//Balance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    align-items: center;
+}
+
+.well-hero-text {
+    width: 80%;
+    padding-left: 10em;
 }
 
 .well-hero h1 {
     font-size: 4em;
-    font-family: "B612 Mono", monospace;
-    font-weight: bold;
     color: white;
+    font-family: "Courgette", cursive;
 }
 
 .well-hero p{

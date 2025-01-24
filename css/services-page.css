@@ -101,7 +101,10 @@
 }
 
 .color-pic-side-two {
-    background-color: #01acc6;
+    background-image:  url(../img/Balance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .color-pic-side-three {
