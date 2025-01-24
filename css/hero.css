@@ -97,9 +97,107 @@
     font-weight: bold;
 }
 
-
 .hero-links > .btn-book:hover {
     background-color: black;
     color: #ffc107;
     border: 2px solid #ffc107;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .hero-text {
+        padding: 0em 2em;
+    }
+    
+    .hero-text>h1 {
+        font-size: 4em;
+    }
+    
+    .hero-text>p {
+        font-size: 2em;
+    }
+    
+    .bg-profile > img {
+        width: 60%;
+        height: 350px;
+    }
+    
+    .bg-profile > p {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 2em 0;
+    }
+    
+    .hero-text, .bg-profile {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+    
+    .hero-text>h1 {
+        font-size: 3.5em;
+    }
+    
+    .bg-profile > img {
+        width: 40%;
+        height: 300px;
+    }
+    
+    .hero-links {
+        justify-content: center;
+    }
+    
+    .hero-links>a {
+        margin: 0.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-text>h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero-text>p {
+        font-size: 1.5em;
+    }
+    
+    .bg-profile > img {
+        width: 60%;
+        height: 250px;
+    }
+    
+    .bg-profile > p {
+        font-size: 2em;
+    }
+    
+    .hero-links>a {
+        font-size: 1em;
+        padding: 0.4em 0.8em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero-text>h1 {
+        font-size: 2em;
+    }
+    
+    .hero-text>p {
+        font-size: 1.2em;
+    }
+    
+    .bg-profile > img {
+        width: 80%;
+        height: 200px;
+    }
+    
+    .bg-profile > p {
+        font-size: 1.5em;
+    }
 }
