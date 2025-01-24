@@ -36,9 +36,10 @@
 
 .about-me-description > p {
     padding: 1em 2em;
-    font-family: "B612 Mono", monospace;
+    font-family: "Baloo 2", serif;
     color: rgb(31, 27, 27);
     text-align: center;
+    font-size: 1.3em;
 }
 
 .about-me-description > .about-me-title {
