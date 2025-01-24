@@ -113,13 +113,13 @@
 
 .bottom-content p {
   margin: 5px 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: black;
   padding: 0 1em;
   font-family: "Baloo 2", serif;
 }
 
-.bottom-content button {
+.bottom-content > a {
   margin: 10px 0;
   padding: 1em;
   font-size: 0.9em;
@@ -127,6 +127,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 /* Pink Section */
@@ -134,12 +135,12 @@
   background-color: #e91e63;
 }
 
-.outer-rectangle.yellow button {
+.outer-rectangle.yellow a{
   background-color: #e91e63;
   color: white;
 }
 
-.outer-rectangle.yellow button:hover {
+.outer-rectangle.yellow a:hover {
   background-color: white;
   color: #e91e63;
   border: 2px solid #e91e63;
@@ -150,12 +151,12 @@
   background-color: #01acc6;
 }
 
-.outer-rectangle.pink button {
+.outer-rectangle.pink a{
   background-color: #01acc6;
   color: white;
 }
 
-.outer-rectangle.pink button:hover {
+.outer-rectangle.pink a:hover {
   background-color: white;
   color: #01acc6;
   border: 2px solid #01acc6;
@@ -166,12 +167,12 @@
   background-color: #ffe530;
 }
 
-.outer-rectangle.turquoise button {
+.outer-rectangle.turquoise a {
   background-color: #ffe530;
   color: black;
 }
 
-.outer-rectangle.turquoise button:hover {
+.outer-rectangle.turquoise a:hover {
   background-color: white;
   color: #ffe530;
   border: 2px solid #ffe530;
@@ -182,12 +183,12 @@
   background-color: #000000;
 }
 
-.outer-rectangle.black button {
+.outer-rectangle.black a {
   background-color: #000000;
   color: white;
 }
 
-.outer-rectangle.black button:hover {
+.outer-rectangle.black a:hover {
   background-color: white;
   color: #000000;
   border: 2px solid #000000;
