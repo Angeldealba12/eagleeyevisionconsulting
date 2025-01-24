@@ -59,6 +59,7 @@
     border-radius: 1.8em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Baloo 2", serif;
 }
 
 .description {
@@ -92,6 +93,7 @@
     border-radius: 1.8em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Baloo 2", serif;
 }
 
 .bio > a:hover {
