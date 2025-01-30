@@ -7,7 +7,7 @@
   padding: 5em 1em;
   flex-wrap: wrap;
   gap: 2em;
-  background-image: url(../img/bg-section-mainpage.png);
+  background-image: url(../../img/bg-section-mainpage.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -137,20 +137,20 @@
 }
 
 .circle-bg-one {
-  background-image: url(../img/Asset-3.png);
+  background-image: url(../../img/Asset-3.png);
   background-position: center;
   background-size: cover;
 }
 
 .circle-bg-two {
-  background-image: url(../img/tara_butterfly.png);
+  background-image: url(../../img/tara_butterfly.png);
   background-position-y: 100%;
   background-size: 100%;
   background-repeat: none;
 }
 
 .circle-bg-three {
-  background-image: url(../img/Target.png);
+  background-image: url(../../img/Target.png);
   background-position: 50%;
   background-size: 80%;
   background-repeat: no-repeat;
