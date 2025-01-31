@@ -1,13 +1,12 @@
 .services-hero {
     display: flex;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/hero-services.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/servicesPage/hero-services.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5em;
     align-items: center;
-
 }
 
 .services-hero>div {
@@ -18,7 +17,6 @@
 .services-hero-text {
     display: flex;
     flex-direction: column;
-    
 }
 
 .services-hero-description {
@@ -56,11 +54,10 @@
     font-family: "Courgette", cursive;
     font-weight: 400;
     font-style: normal;
-    padding: 1em 0em;
+    padding: 1em 0;
 }
 
 .service-description-box>p {
-    padding: 1em 0em;
     font-family: "Baloo 2", serif;
     font-weight: 400;
     font-style: normal;
@@ -94,21 +91,21 @@
 }
 
 .color-pic-side-one {
-    background-image: url(../../img/tara-teaching.jpg);
+    background-image: url(../../img/servicesPage/tara-teaching.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .color-pic-side-two {
-    background-image:  url(../../img/Balance.jpg);
+    background-image:  url(../../img/servicesPage/Balance.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .color-pic-side-three {
-    background-image:  url(../../img/You-Belong.jpg);
+    background-image:  url(../../img/servicesPage/You-Belong.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,6 +113,10 @@
 
 .color-pic-side-four {
     background-color: #000000;
+    background-image:  url(../../img/servicesPage/Teach5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dropdown {
@@ -127,7 +128,7 @@
     padding: 0.5em;
     border-radius: 0.3em;
     width: 30%;
-    margin: 1em 0em;
+    margin: 1em 0;
     text-align: center;
     font-family: "Baloo 2", serif;
     font-size: 0.8em;
@@ -138,7 +139,7 @@
     position: absolute;
     background-color: #f9f9f9;
     min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
     color: black;
@@ -162,7 +163,7 @@
     text-decoration: none;
     font-size: 0.8em;
     color: black;
-    margin: 1em 0em;
+    margin: 1em 0;
     width: 30%;
     padding: 0.5em;
     border-radius: 0.3em;
