@@ -1,8 +1,9 @@
 /* Hero Section */
-.navbar-hero {
+body {
     background-image: url(../../img/mainPage/fondo_blur.png);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero {
