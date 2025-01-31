@@ -1,10 +1,10 @@
 .hero-about-me {
     display: flex;
-    background-color: #6f9f87;
 }
 
 .hero-img-about-me {
     width: 50%;
+    background-color: #0190a1;
 }
 
 .hero-img-about-me > img {
@@ -37,7 +37,6 @@
     padding: 1em 2em;
     font-family: "Baloo 2", serif;
     color: rgb(31, 27, 27);
-    text-align: center;
     font-size: 1.3em;
 }
 
@@ -47,6 +46,48 @@
     font-weight: 400;
     font-size: 1.5em;
 }
+
+.about-me-description-2{
+    display: flex;
+}
+
+.eagle-values {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #df2454;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.eagle-values > h1 {
+    font-size: 3em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: "Courgette", cursive;
+    font-weight: bold;
+}
+
+.eagle-values > div > h3 {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+}
+
+.eagle-values > div{
+    padding: 1em;
+    width: 30%;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.eagle-values > div > p {
+    font-family: "Baloo 2", serif;
+}
+
 
 .mission-vision {
     display: flex;
