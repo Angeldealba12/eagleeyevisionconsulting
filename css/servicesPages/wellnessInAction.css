@@ -2,7 +2,7 @@
     display: flex;
     background-color: #01acc6;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img//Balance.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/servicesPage/Balance.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

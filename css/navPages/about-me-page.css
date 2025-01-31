@@ -5,7 +5,6 @@
 
 .hero-img-about-me {
     width: 50%;
-
 }
 
 .hero-img-about-me > img {
@@ -48,3 +47,53 @@
     font-weight: 400;
     font-size: 1.5em;
 }
+
+.mission-vision {
+    display: flex;
+    height: 100vh;
+}
+
+.mission-vision>div{
+    width: 50%;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-vision>div>h3{
+    font-size: 2.5em;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.mission-vision>div>p{
+    line-height: 1.5em;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    font-family: "Baloo 2", serif;
+    font-size: 1.2em;
+}
+
+.mission-vision>div>img{
+    width: 100px;
+}
+
+.mission-vision>div> .vision-logo{
+    width: 80px;
+}
+
+.mission-vision>div:first-child{
+    background-color: #0190a1;
+}
+
+.mission-vision>div:nth-child(2){
+    background-color: #df2454;
+}
+
