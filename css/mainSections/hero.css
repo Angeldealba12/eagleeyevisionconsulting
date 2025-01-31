@@ -23,9 +23,7 @@ body {
 }
 
 .bg-profile > img {
-   width: 50%;
-   height: 450px;
-   border-radius: 50%;
+   width: 60%;
    object-fit: cover;
 }
 
@@ -146,11 +144,7 @@ body {
         font-size: 3.5em;
     }
     
-    .bg-profile > img {
-        width: 40%;
-        height: 300px;
-    }
-    
+
     .hero-links {
         justify-content: center;
     }
@@ -168,11 +162,7 @@ body {
     .hero-text>p {
         font-size: 1.5em;
     }
-    
-    .bg-profile > img {
-        width: 60%;
-        height: 250px;
-    }
+
     
     .bg-profile > p {
         font-size: 2em;
@@ -191,11 +181,6 @@ body {
     
     .hero-text>p {
         font-size: 1.2em;
-    }
-    
-    .bg-profile > img {
-        width: 80%;
-        height: 300px;
     }
     
     .bg-profile > p {
