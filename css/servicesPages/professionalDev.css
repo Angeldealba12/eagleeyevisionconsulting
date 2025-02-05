@@ -18,7 +18,6 @@
 
 .pd-hero h1 {
     font-size: 4em;
-    font-family: "B612 Mono", monospace;
     color: white;
     font-family: "Courgette", cursive;
 }
@@ -36,8 +35,7 @@
     background-color: #ffd700;
     color: black;
     border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
+    padding: 0.9375em 1.875em;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -46,6 +44,7 @@
     text-decoration: none;
     margin: 1em;
     width: 20%;
+    border-radius: 1.8em;
 }
 
 .pd-hero a:hover {
@@ -73,14 +72,14 @@
 .pd-services-box {
     border-radius: 1em;
     width: 30%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 0.0625em 0.125em 0, rgba(60, 64, 67, 0.15) 0 0.0625em 0.1875em 0.0625em;
 }
 
 .pd-services-box-img {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     width: 100%;
-    height: 200px;
+    height: 12.5em;
     background-color: #e91e63;
 }
 
@@ -88,26 +87,168 @@
     padding: 2em;
 }
 
-.pd-service-description  h3 {
+.pd-service-description h3 {
     color:#e91e63;
     font-size: 1.4em;
     font-family: "B612 Mono", monospace;
     padding: 0 0.5em;
 }
 
-.pd-service-description  p{
+.pd-service-description p{
     padding: 0 1em;
     font-family: "Baloo 2", serif;
     margin: 1.5em 0;
 }
 
-.pd-service-description  a{
+.pd-service-description a{
     padding: 1em;
     text-decoration: none;
     background-color: #ffd700;
     margin: 1em;
     color: black;
     font-family: "Baloo 2", serif;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     font-weight: bold;
+    border-radius: 1.8em;
+}
+
+.why-us-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #01acc6;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us-section > div {
+    width: 100%;
+    display: flex;
+}
+
+.why-us-section > div > h1 {
+    width: 100%;
+    font-family: "Courgette", cursive;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.why-us-description {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.why-us-description > h3 {
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Courgette", cursive;
+}
+
+.why-us-description > p {
+    text-align: center;
+    font-family: "Baloo 2", serif;
+    font-size: 1.2em;
+    color: white;
+    padding: 0 1em;
+}
+
+.why-us-description > img {
+    width: 5em;
+}
+
+.why-us-description:nth-child(2) > img{
+    width: 6.25em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .pd-hero-text {
+        padding-left: 5em;
+        width: 90%;
+    }
+
+    .pd-hero p {
+        width: 70%;
+    }
+
+    .pd-hero a {
+        width: 30%;
+    }
+
+    .pd-services-box {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pd-hero-text {
+        padding-left: 2em;
+        width: 95%;
+    }
+
+    .pd-hero h1 {
+        font-size: 3em;
+    }
+
+    .pd-hero p {
+        width: 90%;
+    }
+
+    .pd-hero a {
+        width: 50%;
+    }
+
+    .pd-services-box {
+        width: 90%;
+    }
+
+    .why-us-section {
+        height: auto;
+        padding: 2em 0;
+    }
+
+    .why-us-section > div {
+        flex-direction: column;
+    }
+
+    .why-us-description {
+        width: 100%;
+        margin: 1em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pd-hero h1 {
+        font-size: 2.5em;
+    }
+
+    .pd-hero p {
+        font-size: 1em;
+    }
+
+    .pd-hero a {
+        width: 80%;
+    }
+
+    .pd-services-title {
+        font-size: 1.5em;
+    }
+
+    .why-us-section > div > h1 {
+        font-size: 2em;
+    }
+
+    .why-us-description > h3 {
+        font-size: 1.2em;
+    }
+
+    .why-us-description > p {
+        font-size: 1em;
+    }
 }
