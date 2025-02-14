@@ -1,7 +1,7 @@
 .contact-section {
     display: flex;
     min-height: 600px;
-    background: #fff;
+    background-color:none;
   }
 
   .contact-image {
@@ -19,7 +19,7 @@
   .contact-form {
     flex: 1;
     padding: 4rem;
-    background: #f8f9fa;
+    
   }
 
   .form-header {
@@ -30,7 +30,8 @@
     width: 80px;
     height: 4px;
     background: #FF69B4;
-    margin-bottom: 1rem;
+    margin-bottom:1rem;
+    
   }
 
   .form-header h2 {
@@ -61,9 +62,10 @@
   .form-group textarea {
     width: 100%;
     padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: none;
+    border-radius: 1.8em;
     font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   }
 
   .form-group textarea {
@@ -79,6 +81,7 @@
     font-size: 1.1rem;
     cursor: pointer;
     transition: background 0.3s ease;
+    border-radius: 1.8em;
   }
 
   .submit-btn:hover {
