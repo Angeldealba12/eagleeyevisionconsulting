@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/universal.css">
-    <link rel="stylesheet" href="../css/mainSections/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/universal.css" />
+    <link rel="stylesheet" href="../css/mainSections/footer.css" />
+    <link rel="stylesheet" href="../css/mainSections/navbar.css" />
+    <link rel="stylesheet" href="../css/servicesPages/marketing.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
       rel="stylesheet"
@@ -33,26 +38,87 @@
       crossorigin="anonymous"
     ></script>
     <title>Strategic Marketing</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="../index.html"
+          ><img
+            src="../img/mainPage/semifinal_proposal_logo.png"
+            alt="logo-tara"
+        /></a>
+      </div>
+      <ul>
+        <li><a href="../navPages/aboutMe.html">About</a></li>
+        <li>
+          <a class="active-color" href="../navPages/services.html">Services</a>
+        </li>
+        <li><a href="../navPages/merch.html">Shop</a></li>
+        <li><a href="../navPages/contact.html">Contact</a></li>
+      </ul>
+      <div class="ham-menu" id="ham-menu" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="responsive-menu" id="responsive-menu">
+        <ul>
+          <li class="animate__bounceIn">
+            <a href="../navPages/aboutMe.html">About</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="../navPages/services.html">Services</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="../navPages/merch.html">Shop</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="../navPages/contact.html">Contact</a>
+          </li>
+          <li class="ham-navbar-icons">
+            <a href=" https://www.instagram.com/eagleeyevisionconsulting/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/eagleeyevisionconsulting"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@EagleEyeVisionConsulting"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/share/15dSGa4Mg7/"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icons">
+        <a href="https://www.instagram.com/eagleeyevisionconsulting/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/eagleeyevisionconsulting"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/@EagleEyeVisionConsulting"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/share/15dSGa4Mg7/"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </nav>
+
+
+     <!-- Strategic Marketing -->
+     <section class="marketing-hero">
+      <div class="marketing-hero-text">
+        <h1 class="animate__animated animate__fadeInDown">Strategic Marketing</h1>
+        <p class="animate__animated animate__fadeInDown">Innovative Statergies. Creative Solutions. impactful Growth. Drive business growth with targeted marketing stratergies, social media engagement, and AI-powered tools that optimize your campaigns and enhance customer relationships. </p>
+        <a href="../navPages/contact.html">Get started</a>
+      </div>
+    </section>
+
 
     <!-- Footer -->
     <footer>
-        <div class="footer-container">
-          <h3>Ready to Elevate Your Perspective?</h3>
-          <p>
-            Let's work together to foster growth, belonging, and success in your
-            organization.
-          </p>
-          <a class="footer-button" href="../navPages/contact.html">Book a Consultation</a>
-          <div class="footer-icons">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </div>
+      <div class="footer-container">
+        <h3>Ready to Elevate Your Perspective?</h3>
+        <p>
+          Let's work together to foster growth, belonging, and success in your
+          organization.
+        </p>
+        <a class="footer-button" href="../navPages/contact.html"
+          >Book a Consultation</a
+        >
+        <div class="footer-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
-      </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
