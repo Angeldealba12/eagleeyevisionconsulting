@@ -34,7 +34,6 @@
     color: black;
     font-family: "B612 Mono", monospace;
     font-style: normal;
-
 }
 
 .navbar>ul>li>a:hover {
@@ -72,79 +71,65 @@
     color: #df2454 !important;
 }
 
-
-@media only screen and (max-width: 870px) {
-
-    .navbar {
-        flex-wrap: wrap;
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .navbar>ul>li>a {
+        font-size: 1em;
     }
+    
+    .navbar-icons > a {
+        font-size: 1em;
+    }
+}
 
-    .navbar>ul {
+@media screen and (max-width: 768px) {
+    .navbar>ul, .navbar-icons {
         display: none;
     }
-
+    
     .ham-menu {
-        display: flex;
-        padding: 1.5em;
-    }
-
-    .ham-menu>i {
-        color: black;
-        font-size: 1.5rem;
+        display: block;
+        padding: 1em;
         cursor: pointer;
     }
-
-    .navbar-icons { 
-        display: none;
-    }
-
+    
     .responsive-menu {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
-        padding: 0 2em 2em 2em;
-
+        background-color: rgb(255, 255, 255);
+        padding: 1em 0;
     }
-
-    .responsive-menu {
-        display: none;
-    }
-
-
+    
     .responsive-menu.active {
         display: block;
-        background-color: #cccccc42;
-        padding: 1em;
     }
-
-
-    .responsive-menu>ul {
-        display: flex;
+    
+    .responsive-menu ul {
         flex-direction: column;
-        width: 100%;
-        justify-content: flex-end;
-        align-items: self-end;
-
+        align-items: center;
     }
-
-    .responsive-menu>ul>li {
-        list-style: none;
-        margin: 0.5em;
-        width: 60%;
-
-
+    
+    .responsive-menu li {
+        padding: 0.5em 0;
+        text-align: center;
     }
-
-    .responsive-menu>ul>li>a {
-        text-decoration: none;
-        color: black;
-        font-size: 1rem;
-        width: 100%;
-        border-radius: 1em;
-        display: flex;
-        justify-content: flex-end;
-        font-family: "B612 Mono", monospace;
-        font-weight: 400;
-        font-style: normal;
+    
+    .ham-navbar-icons {
+        justify-content: center;
+        gap: 1em;
+        padding: 1em 0;
     }
+}
 
+@media screen and (max-width: 480px) {
+    .logo>a>img {
+        width: 150px;
+    }
+    
+    .navbar {
+        padding: 0.3em;
+    }
 }

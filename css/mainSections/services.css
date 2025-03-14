@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .services-title h1 {
@@ -36,7 +37,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 2em;
 }
+
 
 @media screen and (max-width: 768px) {
   .services-title h1 {
