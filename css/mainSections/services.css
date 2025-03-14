@@ -40,6 +40,32 @@
   padding: 2em;
 }
 
+.presentation-video a {
+  margin: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation-video {
+    height: auto;
+    min-height: 100vh;
+    padding: 4em 1em;
+  }
+  
+  .presentation-video a {
+    margin: 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .presentation-video {
+    padding: 3em 0.5em;
+  }
+
+  .presentation-video a {
+    margin: 1em;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .services-title h1 {
@@ -50,6 +76,7 @@
     width: 80%;
     font-size: 0.9em;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -61,6 +88,7 @@
     width: 90%;
     font-size: 0.8em;
   }
+  
 }
 
 .outer-rectangle {
