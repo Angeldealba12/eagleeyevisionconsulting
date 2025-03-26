@@ -6,13 +6,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5em;
+    padding-top: 5%;
     align-items: center;
 }
 
 .well-hero-text {
     width: 80%;
-    padding-left: 10em;
+    padding-left: 10%;
 }
 
 .well-hero h1 {
@@ -21,7 +21,7 @@
     font-family: "Courgette", cursive;
 }
 
-.well-hero p{
+.well-hero p {
     color: white;
     font-size: 1.2em;
     width: 50%;
@@ -35,7 +35,7 @@
     color: black;
     border: none;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 2% 4%;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -43,8 +43,62 @@
     font-weight: bold;
     text-decoration: none;
     margin: 1em;
+    width: 20%;
+    display: inline-block;
 }
 
 .well-hero a:hover {
     background-color: #ffc107;
+}
+
+@media screen and (max-width: 1200px) {
+    .well-hero-text {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .well-hero p {
+        width: 70%;
+    }
+
+    .well-hero a {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .well-hero-text {
+        padding-left: 2%;
+        width: 95%;
+    }
+
+    .well-hero h1 {
+        font-size: 3em;
+    }
+
+    .well-hero p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .well-hero a {
+        width: 50%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .well-hero h1 {
+        font-size: 2.5em;
+    }
+
+    .well-hero p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .well-hero a {
+        width: 70%;
+        font-size: 0.8em;
+    }
 }
