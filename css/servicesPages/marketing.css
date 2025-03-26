@@ -51,3 +51,186 @@
 .marketing-hero a:hover {
     background-color: #ffc107;
 }
+
+
+
+
+.marketing-services-container {
+    max-width: 100%;
+    width: 70%;
+    margin: 2% auto;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 1.8vw;
+    color: #333;
+}
+
+.section-description {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 1vw;
+    color: #666;
+}
+
+.training-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    width: 100%;
+}
+
+.training-option {
+    width: 100%;
+    padding: 2% 3%;
+    margin-bottom: 1.5%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.training-option:hover {
+    transform: scale(1.02);
+}
+
+.pink-option {
+    border: 5px solid #FFB6C1;
+    color: #8B4513;
+}
+
+.blue-option {
+    border: 5px solid #87CEFA;
+    color: #000080;
+}
+
+.yellow-option {
+    border: 5px solid  #FFE87C;
+    color: #8B4513;
+}
+
+.green-option {
+    border: 5px solid #98FB98;
+    color: #006400;
+}
+
+.black-option {
+    border: 5px solid #D3D3D3;
+    color: #000;
+}
+
+.pricing-button {
+    display: block;
+    width: 50%;
+    margin: 3% auto;
+    padding: 1.5% 3%;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pricing-button:hover {
+    background-color: #FFA500;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 3vw;
+    }
+
+    .section-description {
+        font-size: 2vw;
+    }
+
+    .training-option {
+        font-size: 2vw;
+        padding: 3% 4%;
+    }
+
+    .pricing-button {
+        width: 70%;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section-title {
+        font-size: 4vw;
+    }
+
+    .section-description {
+        font-size: 3vw;
+    }
+
+    .training-option {
+        font-size: 2.5vw;
+        padding: 4% 5%;
+    }
+
+    .pricing-button {
+        width: 90%;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .marketing-hero-text {
+        padding-left: 5em;
+        width: 90%;
+    }
+
+    .marketing-hero-text p {
+        width: 70%;
+    }
+
+    .marketing-hero a {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .marketing-hero-text {
+        padding-left: 2em;
+        width: 95%;
+    }
+
+    .marketing-hero-text h1 {
+        font-size: 3em;
+    }
+
+    .marketing-hero-text p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .marketing-hero a {
+        width: 50%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .marketing-hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    .marketing-hero-text p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .marketing-hero a {
+        width: 70%;
+        font-size: 0.8em;
+    }
+}
