@@ -6,12 +6,13 @@
 
 .hero-img-about-me {
     width: 50%;
-    background-color: #0190a1;
 }
 
 .hero-img-about-me > img {
     width: 100%;
 }
+
+
 
 .butterfly > img {
     width: 80%;
